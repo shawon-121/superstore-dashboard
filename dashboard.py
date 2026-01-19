@@ -10,6 +10,7 @@ warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title= 'Super Store ', page_icon=':bar_chart:', layout='wide')
 st.title(':bar_chart: SuperStore EDA Project')
+st.subheader('Made by Shawon',divider=True)
 
 file = st.file_uploader('Upload your file ', type= (['csv','xlsx','xls','text']))
 
